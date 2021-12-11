@@ -100,7 +100,7 @@ h6 {
 }
 
 .masonry-container {
-	column-count: 3;
+	column-count: 4;
 	column-gap: 1em;
 }
 
@@ -108,4 +108,7 @@ h6 {
 	.masonry-container {
 		column-count: 2;
 	}
+}
+.sortable {
+	transition: all 0.4s ease;
 }
